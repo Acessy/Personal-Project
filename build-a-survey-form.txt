@@ -1,0 +1,192 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head> <meta charset="UTF-8">
+  <title>Build a survey form></title>
+  <link rel="stylesheet" href="styles.css"/>
+  </head>
+</html>
+<body>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description"> Thank you for taking the time to help us improve the platform </p>
+<form id="survey-form">
+<fieldset>
+  
+  <label for="name" id="name-label">
+  Name<input type="text" id="name" required="" placeholder="Enter your name"> </label>
+
+  <label for="email" id="email-label"> Email<input type="email" placeholder="Enter your Email" id="email" required="" > </label>
+
+  <label for="age" id="number-label">Age <input id=number type="number" min="13" max="120" placeholder="Age"></label>
+
+Which option best describes your current role?
+  <select id="dropdown">Would you
+    <option value="">Select your current role
+    </option>
+    <option value="1">Student
+    </option>
+    <option value="2">Full Time Job
+    </option2>
+    <option value="3">Full Time Learner
+    </option2>
+    <option value="4">Prefer not to say
+    </option2>
+    <option value="5">Other
+    </option2>
+  </select>
+
+ Would you recommend freeCodeCamp to a friend?
+<label for="Definitely">
+<input type="radio" name="group" class="inline" id="definitely" value="1"> Definitely
+</label>
+<label for="Maybe">
+<input type="radio" name="group" class="inline id="Maybe" value="1"> Maybe
+</label>
+<label for="Not sure">
+<input type="radio" name="group" class="inline"
+id="Not sure" value="1"> Not sure</label>
+
+What is your favorite feature of freeCodeCamp?
+<label for="feature">
+<select id="dropdown">Would you
+    <option value="">Select an option
+    </option>
+    <option value="1">Challenges
+    </option>
+    <option value="2">Projects
+    </option2>
+    <option value="3">Community
+    </option2>
+    <option value="4">Open Source
+    </option2>
+
+</select>
+</label>
+
+What would you like to see improved? (Check all that apply)
+<label>
+<input type="checkbox" id="front-end projects" class="inline" name="Front-end Projects" value="1"> Front-end Projects
+</label>
+<label>
+<input type="checkbox" id="Back-end Projects" class="inline" name="Back-end Projects" value="2"> Back-end Projects
+</label>
+<label>
+<input type="checkbox" id="Data Visualization" class="inline" name="Data Visualization" value="3"> Data Visualization
+</label>
+<label>
+<input type="checkbox" id="Challenges" class="inline" name="Challenges" value="4"> Challenges
+</label>
+
+<label>
+<input type="checkbox" id="Open Source Community" class="inline" name="Open Source Community" value="5"> Open Source Community
+</label>
+<label>
+<input type="checkbox" id="Gitter help rooms" class="inline" name="Gitter help rooms" value="6"> Gitter help rooms
+</label>
+<label>
+<input type="checkbox" id="Videos" class="inline" name="Videos" value="7"> Videos
+</label>
+<label>
+<input type="checkbox" id="City Meetups" class="inline" name="City Meetups" value="8"> City Meetups
+</label>
+<label>
+<input type="checkbox" id="Wiki" class="inline" name="Wiki" value="9"> Wiki
+</label>
+<label>
+<input type="checkbox" id="Forum" class="inline" name="Forum" value="10"> Forum
+</label>
+<label>
+<input type="checkbox" id="Additional Courses" class="inline" name="Additional Courses" value="11"> Additional Courses
+</label>
+
+<Label for="comments">
+Any comments or suggestions?
+<textarea class="userInput" placeholder="Enter your comment here..."></textarea>
+</label>
+<input type="submit" id="submit">
+</fieldset>
+</form>
+
+</body>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+  font-family: Helvetica;
+  font-size: 16px;}
+
+
+
+form {
+  width: 60vw;
+  max-width: 600px;
+  min-width: 400px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+h1, p{text-align:center;
+font-style:italic;
+margin: 1em auto;
+padding: 0}
+
+label {display:block;
+margin:0 .5rem 1;
+}
+
+
+
+input{
+margin: 2em auto;
+width:100%;
+height:30;
+margin-bottom: 2em;}
+
+select{display:block;
+margin: 1em auto;
+width:100%;
+height:30;}
+
+input[type="radio"] {margin: 0em auto;}
+
+.inline{
+width:unset;
+vertical-align:middle;
+}
+
+fieldset {border:1;
+padding: 2em;
+}
+
+input[type="checkbox"] {margin: 0em auto;}
+
+
+
+.userinput{  margin: 1px;
+  padding: 1px;
+  width: 500px;
+  height: 150px;
+  resize: none;}
+
+  input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color:green;
+  color: white;
+  min-width: 300px;
+
+
+
+** end of undefined **
+
